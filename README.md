@@ -44,7 +44,7 @@ class Main {
                 throw new IOException("Некорректная операция");
         }
 
-        return String.valueOf(result); // Возвращает результат операции в виде строки.
+        return String.valueOf(result); 
     }
 
     public static void main(String[] args) {
@@ -56,7 +56,7 @@ class Main {
             String result = calc(input);
             System.out.println("Результат: " + result);
         } catch (IOException e) {
-            System.out.println("Ошибка: " + e.getMessage()); // Пытается вычислить результат выражения, используя метод calc. Если происходит ошибка, выводит сообщение об ошибке.
+            System.out.println("Ошибка: " + e.getMessage()); 
         }
 
         scanner.close();
